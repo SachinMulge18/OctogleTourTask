@@ -12,9 +12,9 @@ const HeroSection = () => {
   const [dateRange, setDateRange] = useState("February 05 - March 14");
 
   const heroImages = [
+    "https://images.unsplash.com/photo-1563789031959-4c02bcb41319?w=1200&h=500&fit=crop",
     "https://images.unsplash.com/photo-1583422409516-2895a77efded?w=1200&h=500&fit=crop",
     "https://images.unsplash.com/photo-1549144511-f099e773c147?w=1200&h=500&fit=crop",
-    "https://images.unsplash.com/photo-1563789031959-4c02bcb41319?w=1200&h=500&fit=crop",
   ];
 
   const nextSlide = () => {
@@ -51,7 +51,7 @@ const HeroSection = () => {
           </button>
 
           <div className="relative z-10 flex flex-col mt-[25%] md:mt-0 md:items-center md:justify-center h-full px-4">
-            <h1 className="text-3xl md:text-5xl font-medium text-black text-center bg-gray-50 opacity-60 p-2 rounded-2xl animate-fadeInUp">
+            <h1 className="text-3xl md:text-5xl font-medium text-black text-center opacity-10 p-2 rounded-2xl animate-fadeInUp">
               Because Life is Art!
             </h1>
           </div>
