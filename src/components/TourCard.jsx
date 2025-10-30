@@ -50,6 +50,8 @@ const TourCard = ({ tour }) => {
           </span>
         </div>
 
+        <hr className="border border-gray-300 my-3" />
+
         <div className="flex items-center justify-between">
           <div>
             <span className="text-lg font-medium text-gray-800">
