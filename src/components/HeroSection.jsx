@@ -50,9 +50,21 @@ const HeroSection = () => {
             <FaChevronRight className="text-gray-800" />
           </button>
 
-          <div className="relative z-10 flex flex-col mt-[25%] md:mt-0 md:items-center md:justify-center h-full px-4">
+          {/* <div className=" z-10 flex flex-col relative mt-[25%] md:mt-0 md:items-center md:justify-center h-full px-4">
             <h1 className="text-3xl md:text-5xl font-medium text-black text-center opacity-10 p-2 rounded-2xl animate-fadeInUp">
               Because Life is Art!
+            </h1>
+          </div> */}
+
+          <div className="absolute -mt-[25%] md:mt-0 inset-0 flex flex-col items-center justify-center text-center text-white z-20 px-4">
+            <h1
+              className="text-3xl md:text-5xl lg:text-6xl font-bold drop-shadow-[0_2px_10px_rgba(0,0,0,0.4)] animate-fadeInUp"
+              style={{
+                textShadow: "0px 4px 10px rgba(0, 0, 0, 0.6)",
+                letterSpacing: "1px",
+              }}
+            >
+              Because Life is <span className="text-yellow-400">Art!</span>
             </h1>
           </div>
         </div>
